@@ -42,7 +42,7 @@ var map = new ol.Map({
   var marker1 = createMarker(118.59966,2.19597,'SMAN 9 Berau',1);
   var marker2 = createMarker(118.63409,1.52464,'SMPN 3 Satu Atap Batu Putih',1);
 
-<?=$vmarker?>
+
 var vectorSource = new ol.source.Vector({
   features: [marker1, marker2]
 });
